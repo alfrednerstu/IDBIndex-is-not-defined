@@ -12,6 +12,10 @@ Returning client-side Firebase or initializes and returns server-side Firebase
 `src/routes/index.svelte` 
 Gets a list of documents from Firebase (currently works when you navigate to the page from another page (ie client side) but not when you hit the page directly (ie server side).
 
+`rollup.config.js` 
+Using the alias plugin to try to load the Node version of Firebase instead of client-side version on the server.
+
+
 ### Running the project
 
 However you get the code, you can install dependencies and run the project in development mode with:
