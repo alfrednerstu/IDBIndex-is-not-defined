@@ -1,15 +1,15 @@
 # IDBIndex-is-not-defined
 
-src/firebaseConfig.js
+`src/firebaseConfig.js` 
 The firebase configuration
 
-src/client.js
+`src/client.js` 
 Importing and initializing Firebase on the client
 
-src/firebase.js
+`src/firebase.js` 
 Returning client-side Firebase or initializes and returns server-side Firebase
 
-src/routes/index.svelte
+`src/routes/index.svelte` 
 Gets a list of documents from Firebase (currently works when you navigate to the page from another page (ie client side) but not when you hit the page directly (ie server side).
 
 ### Running the project
