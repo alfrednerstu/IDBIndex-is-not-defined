@@ -85,8 +85,10 @@ export default {
 			commonjs(),
 			alias({
       entries: [
-        { find: 'firebase', replacement: 'node_modules/firebase/dist/index.node.cjs.js' },
-				{ find: 'firebase/app', replacement: 'node_modules/firebase/app/dist/index.cjs.js' }
+        { find: 'firebase', replacement: './node_modules/firebase/dist/index.node.cjs.js' },
+				{ find: 'firebase/app', replacement: './node_modules/firebase/app/dist/index.cjs.js' },
+				{ find: 'firebase/firestore', replacement: './node_modules/firebase/firestore/dist/index.cjs.js' },
+				{ find: 'firestore', replacement: './node_modules/firebase/firestore/dist/index.cjs.js' }
       ],
 			customResolver
     })
